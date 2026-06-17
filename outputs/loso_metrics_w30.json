@@ -1,0 +1,211 @@
+{
+  "config": {
+    "window": 30,
+    "stride": 15,
+    "trees": 200,
+    "random_state": 42
+  },
+  "folds": [
+    {
+      "held_out_subject": "1",
+      "windows": 4854,
+      "accuracy": 0.36629583848372477,
+      "abnormal": {
+        "precision": 0.9797101449275363,
+        "recall": 0.5540983606557377,
+        "f1": 0.7078534031413612
+      }
+    },
+    {
+      "held_out_subject": "2",
+      "windows": 4735,
+      "accuracy": 0.6152059134107709,
+      "abnormal": {
+        "precision": 0.9646393210749646,
+        "recall": 0.6262626262626263,
+        "f1": 0.7594654788418709
+      }
+    },
+    {
+      "held_out_subject": "3",
+      "windows": 7074,
+      "accuracy": 0.4099519366694939,
+      "abnormal": {
+        "precision": 0.37573529411764706,
+        "recall": 0.6391494684177611,
+        "f1": 0.47325769854132904
+      }
+    },
+    {
+      "held_out_subject": "5",
+      "windows": 4772,
+      "accuracy": 0.5565800502933781,
+      "abnormal": {
+        "precision": 0.9963414634146341,
+        "recall": 0.6797004991680532,
+        "f1": 0.8081107814045498
+      }
+    }
+  ],
+  "overall_accuracy": 0.478049918357826,
+  "overall_abnormal": {
+    "precision": 0.6475592465059753,
+    "recall": 0.6256360078277886,
+    "f1": 0.636408878272121
+  },
+  "classification_report": {
+    "Attacking": {
+      "precision": 0.5669811320754717,
+      "recall": 0.45154019534184825,
+      "f1-score": 0.5027185278126307,
+      "support": 1331.0
+    },
+    "Biting nails": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1520.0
+    },
+    "Eating snacks": {
+      "precision": 0.32357645553422903,
+      "recall": 0.560387811634349,
+      "f1-score": 0.4102616102210505,
+      "support": 3610.0
+    },
+    "Head banging": {
+      "precision": 0.9439252336448598,
+      "recall": 0.5126903553299492,
+      "f1-score": 0.6644736842105263,
+      "support": 1182.0
+    },
+    "Sitting quietly": {
+      "precision": 0.42135761589403975,
+      "recall": 0.3215413771320278,
+      "f1-score": 0.36474381941956285,
+      "support": 4749.0
+    },
+    "Throwing things": {
+      "precision": 0.2316542288557214,
+      "recall": 0.691736304549675,
+      "f1-score": 0.3470766363848125,
+      "support": 1077.0
+    },
+    "Using phone": {
+      "precision": 0.27661596958174905,
+      "recall": 0.15549024846379908,
+      "f1-score": 0.19907644946126218,
+      "support": 3743.0
+    },
+    "Walking": {
+      "precision": 0.9214254094732183,
+      "recall": 0.985792090930618,
+      "f1-score": 0.9525225946688022,
+      "support": 4223.0
+    },
+    "accuracy": 0.478049918357826,
+    "macro avg": {
+      "precision": 0.46069200563241114,
+      "recall": 0.45989729792278333,
+      "f1-score": 0.4301091652723309,
+      "support": 21435.0
+    },
+    "weighted avg": {
+      "precision": 0.47658290264275893,
+      "recall": 0.478049918357826,
+      "f1-score": 0.45762475724671087,
+      "support": 21435.0
+    }
+  },
+  "confusion_matrix_labels": [
+    "Attacking",
+    "Biting nails",
+    "Eating snacks",
+    "Head banging",
+    "Sitting quietly",
+    "Throwing things",
+    "Using phone",
+    "Walking"
+  ],
+  "confusion_matrix": [
+    [
+      601,
+      0,
+      142,
+      1,
+      0,
+      470,
+      0,
+      117
+    ],
+    [
+      9,
+      0,
+      886,
+      6,
+      191,
+      146,
+      264,
+      18
+    ],
+    [
+      35,
+      19,
+      2023,
+      17,
+      904,
+      573,
+      25,
+      14
+    ],
+    [
+      148,
+      0,
+      10,
+      606,
+      8,
+      298,
+      45,
+      67
+    ],
+    [
+      2,
+      0,
+      2020,
+      0,
+      1527,
+      15,
+      1182,
+      3
+    ],
+    [
+      160,
+      0,
+      36,
+      7,
+      0,
+      745,
+      6,
+      123
+    ],
+    [
+      87,
+      0,
+      1133,
+      0,
+      994,
+      934,
+      582,
+      13
+    ],
+    [
+      18,
+      0,
+      2,
+      5,
+      0,
+      35,
+      0,
+      4163
+    ]
+  ]
+}

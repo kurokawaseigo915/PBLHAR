@@ -1,0 +1,749 @@
+{
+  "config": {
+    "window": 60,
+    "stride": 30,
+    "trees": 300,
+    "random_state": 42,
+    "normalization": "subject_zscore",
+    "activity_leaf": 4,
+    "abnormal_leaf": 2
+  },
+  "folds": [
+    {
+      "held_out_subject": "1",
+      "windows": 2419,
+      "accuracy": 0.6659776767259198,
+      "macro_f1": 0.6761418913273046,
+      "abnormal": {
+        "precision": 0.9803063457330415,
+        "recall": 0.7392739273927392,
+        "f1": 0.8428974600188146
+      },
+      "classification_report": {
+        "Attacking": {
+          "precision": 0.8873239436619719,
+          "recall": 0.42857142857142855,
+          "f1": 0.5779816513761468,
+          "support": 147
+        },
+        "Biting nails": {
+          "precision": 1.0,
+          "recall": 0.4702702702702703,
+          "f1": 0.6397058823529411,
+          "support": 185
+        },
+        "Eating snacks": {
+          "precision": 0.5459016393442623,
+          "recall": 0.6809815950920245,
+          "f1": 0.6060054595086443,
+          "support": 489
+        },
+        "Head banging": {
+          "precision": 1.0,
+          "recall": 0.896,
+          "f1": 0.9451476793248945,
+          "support": 125
+        },
+        "Sitting quietly": {
+          "precision": 0.6045918367346939,
+          "recall": 0.49894736842105264,
+          "f1": 0.5467128027681661,
+          "support": 475
+        },
+        "Throwing things": {
+          "precision": 0.6203208556149733,
+          "recall": 0.7785234899328859,
+          "f1": 0.6904761904761905,
+          "support": 149
+        },
+        "Using phone": {
+          "precision": 0.43675417661097854,
+          "recall": 0.5027472527472527,
+          "f1": 0.4674329501915709,
+          "support": 364
+        },
+        "Walking": {
+          "precision": 0.8872458410351202,
+          "recall": 0.9896907216494846,
+          "f1": 0.935672514619883,
+          "support": 485
+        }
+      },
+      "binary_confusion_matrix": [
+        [
+          1804,
+          9
+        ],
+        [
+          158,
+          448
+        ]
+      ]
+    },
+    {
+      "held_out_subject": "2",
+      "windows": 2360,
+      "accuracy": 0.7156779661016949,
+      "macro_f1": 0.6422697341146753,
+      "abnormal": {
+        "precision": 0.920863309352518,
+        "recall": 0.7097966728280961,
+        "f1": 0.801670146137787
+      },
+      "classification_report": {
+        "Attacking": {
+          "precision": 0.8,
+          "recall": 0.6947368421052632,
+          "f1": 0.7436619718309859,
+          "support": 190
+        },
+        "Biting nails": {
+          "precision": 0.7931034482758621,
+          "recall": 0.25,
+          "f1": 0.38016528925619836,
+          "support": 92
+        },
+        "Eating snacks": {
+          "precision": 0.7398945518453427,
+          "recall": 0.864476386036961,
+          "f1": 0.7973484848484849,
+          "support": 487
+        },
+        "Head banging": {
+          "precision": 0.97,
+          "recall": 0.751937984496124,
+          "f1": 0.8471615720524017,
+          "support": 129
+        },
+        "Sitting quietly": {
+          "precision": 0.5401376146788991,
+          "recall": 0.9651639344262295,
+          "f1": 0.6926470588235294,
+          "support": 488
+        },
+        "Throwing things": {
+          "precision": 0.7398373983739838,
+          "recall": 0.7,
+          "f1": 0.7193675889328063,
+          "support": 130
+        },
+        "Using phone": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 364
+        },
+        "Walking": {
+          "precision": 0.9700854700854701,
+          "recall": 0.9458333333333333,
+          "f1": 0.9578059071729957,
+          "support": 480
+        }
+      },
+      "binary_confusion_matrix": [
+        [
+          1786,
+          33
+        ],
+        [
+          157,
+          384
+        ]
+      ]
+    },
+    {
+      "held_out_subject": "3",
+      "windows": 3525,
+      "accuracy": 0.5293617021276595,
+      "macro_f1": 0.4590675092998577,
+      "abnormal": {
+        "precision": 0.6830122591943958,
+        "recall": 0.4918032786885246,
+        "f1": 0.5718475073313783
+      },
+      "classification_report": {
+        "Attacking": {
+          "precision": 0.7129629629629629,
+          "recall": 0.88,
+          "f1": 0.7877237851662404,
+          "support": 175
+        },
+        "Biting nails": {
+          "precision": 0.29310344827586204,
+          "recall": 0.11604095563139932,
+          "f1": 0.16625916870415647,
+          "support": 293
+        },
+        "Eating snacks": {
+          "precision": 0.3308457711442786,
+          "recall": 0.7556818181818182,
+          "f1": 0.4602076124567474,
+          "support": 352
+        },
+        "Head banging": {
+          "precision": 0.5625,
+          "recall": 0.04433497536945813,
+          "f1": 0.0821917808219178,
+          "support": 203
+        },
+        "Sitting quietly": {
+          "precision": 0.9707792207792207,
+          "recall": 0.32785087719298245,
+          "f1": 0.4901639344262295,
+          "support": 912
+        },
+        "Throwing things": {
+          "precision": 0.31390134529147984,
+          "recall": 0.5737704918032787,
+          "f1": 0.4057971014492754,
+          "support": 122
+        },
+        "Using phone": {
+          "precision": 0.40122199592668023,
+          "recall": 0.4918851435705368,
+          "f1": 0.44195176668536174,
+          "support": 801
+        },
+        "Walking": {
+          "precision": 0.7441860465116279,
+          "recall": 0.95952023988006,
+          "f1": 0.8382449246889325,
+          "support": 667
+        }
+      },
+      "binary_confusion_matrix": [
+        [
+          2551,
+          181
+        ],
+        [
+          403,
+          390
+        ]
+      ]
+    },
+    {
+      "held_out_subject": "5",
+      "windows": 2378,
+      "accuracy": 0.6551724137931034,
+      "macro_f1": 0.7152734893246435,
+      "abnormal": {
+        "precision": 0.9978354978354979,
+        "recall": 0.7721943048576214,
+        "f1": 0.8706326723323891
+      },
+      "classification_report": {
+        "Attacking": {
+          "precision": 1.0,
+          "recall": 0.959731543624161,
+          "f1": 0.9794520547945206,
+          "support": 149
+        },
+        "Biting nails": {
+          "precision": 1.0,
+          "recall": 0.3064516129032258,
+          "f1": 0.4691358024691358,
+          "support": 186
+        },
+        "Eating snacks": {
+          "precision": 0.35944299390774587,
+          "recall": 0.8731501057082452,
+          "f1": 0.5092478421701603,
+          "support": 473
+        },
+        "Head banging": {
+          "precision": 1.0,
+          "recall": 0.9767441860465116,
+          "f1": 0.9882352941176471,
+          "support": 129
+        },
+        "Sitting quietly": {
+          "precision": 0.5526315789473685,
+          "recall": 0.1696969696969697,
+          "f1": 0.2596599690880989,
+          "support": 495
+        },
+        "Throwing things": {
+          "precision": 0.9632352941176471,
+          "recall": 0.9849624060150376,
+          "f1": 0.9739776951672863,
+          "support": 133
+        },
+        "Using phone": {
+          "precision": 0.9701492537313433,
+          "recall": 0.38461538461538464,
+          "f1": 0.5508474576271186,
+          "support": 338
+        },
+        "Walking": {
+          "precision": 0.9854469854469855,
+          "recall": 0.9978947368421053,
+          "f1": 0.9916317991631799,
+          "support": 475
+        }
+      },
+      "binary_confusion_matrix": [
+        [
+          1780,
+          1
+        ],
+        [
+          136,
+          461
+        ]
+      ]
+    }
+  ],
+  "overall_accuracy": 0.6294701366785246,
+  "overall_macro_f1": 0.6278545936502365,
+  "overall_abnormal": {
+    "precision": 0.8825380178290508,
+    "recall": 0.6633819471817107,
+    "f1": 0.7574257425742575
+  },
+  "per_subject_class_metrics": [
+    {
+      "held_out_subject": "1",
+      "label": "Attacking",
+      "precision": 0.8873239436619719,
+      "recall": 0.42857142857142855,
+      "f1": 0.5779816513761468,
+      "support": 147,
+      "behavior_type": "Unusual"
+    },
+    {
+      "held_out_subject": "1",
+      "label": "Biting nails",
+      "precision": 1.0,
+      "recall": 0.4702702702702703,
+      "f1": 0.6397058823529411,
+      "support": 185,
+      "behavior_type": "Unusual"
+    },
+    {
+      "held_out_subject": "1",
+      "label": "Eating snacks",
+      "precision": 0.5459016393442623,
+      "recall": 0.6809815950920245,
+      "f1": 0.6060054595086443,
+      "support": 489,
+      "behavior_type": "Normal"
+    },
+    {
+      "held_out_subject": "1",
+      "label": "Head banging",
+      "precision": 1.0,
+      "recall": 0.896,
+      "f1": 0.9451476793248945,
+      "support": 125,
+      "behavior_type": "Unusual"
+    },
+    {
+      "held_out_subject": "1",
+      "label": "Sitting quietly",
+      "precision": 0.6045918367346939,
+      "recall": 0.49894736842105264,
+      "f1": 0.5467128027681661,
+      "support": 475,
+      "behavior_type": "Normal"
+    },
+    {
+      "held_out_subject": "1",
+      "label": "Throwing things",
+      "precision": 0.6203208556149733,
+      "recall": 0.7785234899328859,
+      "f1": 0.6904761904761905,
+      "support": 149,
+      "behavior_type": "Unusual"
+    },
+    {
+      "held_out_subject": "1",
+      "label": "Using phone",
+      "precision": 0.43675417661097854,
+      "recall": 0.5027472527472527,
+      "f1": 0.4674329501915709,
+      "support": 364,
+      "behavior_type": "Normal"
+    },
+    {
+      "held_out_subject": "1",
+      "label": "Walking",
+      "precision": 0.8872458410351202,
+      "recall": 0.9896907216494846,
+      "f1": 0.935672514619883,
+      "support": 485,
+      "behavior_type": "Normal"
+    },
+    {
+      "held_out_subject": "2",
+      "label": "Attacking",
+      "precision": 0.8,
+      "recall": 0.6947368421052632,
+      "f1": 0.7436619718309859,
+      "support": 190,
+      "behavior_type": "Unusual"
+    },
+    {
+      "held_out_subject": "2",
+      "label": "Biting nails",
+      "precision": 0.7931034482758621,
+      "recall": 0.25,
+      "f1": 0.38016528925619836,
+      "support": 92,
+      "behavior_type": "Unusual"
+    },
+    {
+      "held_out_subject": "2",
+      "label": "Eating snacks",
+      "precision": 0.7398945518453427,
+      "recall": 0.864476386036961,
+      "f1": 0.7973484848484849,
+      "support": 487,
+      "behavior_type": "Normal"
+    },
+    {
+      "held_out_subject": "2",
+      "label": "Head banging",
+      "precision": 0.97,
+      "recall": 0.751937984496124,
+      "f1": 0.8471615720524017,
+      "support": 129,
+      "behavior_type": "Unusual"
+    },
+    {
+      "held_out_subject": "2",
+      "label": "Sitting quietly",
+      "precision": 0.5401376146788991,
+      "recall": 0.9651639344262295,
+      "f1": 0.6926470588235294,
+      "support": 488,
+      "behavior_type": "Normal"
+    },
+    {
+      "held_out_subject": "2",
+      "label": "Throwing things",
+      "precision": 0.7398373983739838,
+      "recall": 0.7,
+      "f1": 0.7193675889328063,
+      "support": 130,
+      "behavior_type": "Unusual"
+    },
+    {
+      "held_out_subject": "2",
+      "label": "Using phone",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 364,
+      "behavior_type": "Normal"
+    },
+    {
+      "held_out_subject": "2",
+      "label": "Walking",
+      "precision": 0.9700854700854701,
+      "recall": 0.9458333333333333,
+      "f1": 0.9578059071729957,
+      "support": 480,
+      "behavior_type": "Normal"
+    },
+    {
+      "held_out_subject": "3",
+      "label": "Attacking",
+      "precision": 0.7129629629629629,
+      "recall": 0.88,
+      "f1": 0.7877237851662404,
+      "support": 175,
+      "behavior_type": "Unusual"
+    },
+    {
+      "held_out_subject": "3",
+      "label": "Biting nails",
+      "precision": 0.29310344827586204,
+      "recall": 0.11604095563139932,
+      "f1": 0.16625916870415647,
+      "support": 293,
+      "behavior_type": "Unusual"
+    },
+    {
+      "held_out_subject": "3",
+      "label": "Eating snacks",
+      "precision": 0.3308457711442786,
+      "recall": 0.7556818181818182,
+      "f1": 0.4602076124567474,
+      "support": 352,
+      "behavior_type": "Normal"
+    },
+    {
+      "held_out_subject": "3",
+      "label": "Head banging",
+      "precision": 0.5625,
+      "recall": 0.04433497536945813,
+      "f1": 0.0821917808219178,
+      "support": 203,
+      "behavior_type": "Unusual"
+    },
+    {
+      "held_out_subject": "3",
+      "label": "Sitting quietly",
+      "precision": 0.9707792207792207,
+      "recall": 0.32785087719298245,
+      "f1": 0.4901639344262295,
+      "support": 912,
+      "behavior_type": "Normal"
+    },
+    {
+      "held_out_subject": "3",
+      "label": "Throwing things",
+      "precision": 0.31390134529147984,
+      "recall": 0.5737704918032787,
+      "f1": 0.4057971014492754,
+      "support": 122,
+      "behavior_type": "Unusual"
+    },
+    {
+      "held_out_subject": "3",
+      "label": "Using phone",
+      "precision": 0.40122199592668023,
+      "recall": 0.4918851435705368,
+      "f1": 0.44195176668536174,
+      "support": 801,
+      "behavior_type": "Normal"
+    },
+    {
+      "held_out_subject": "3",
+      "label": "Walking",
+      "precision": 0.7441860465116279,
+      "recall": 0.95952023988006,
+      "f1": 0.8382449246889325,
+      "support": 667,
+      "behavior_type": "Normal"
+    },
+    {
+      "held_out_subject": "5",
+      "label": "Attacking",
+      "precision": 1.0,
+      "recall": 0.959731543624161,
+      "f1": 0.9794520547945206,
+      "support": 149,
+      "behavior_type": "Unusual"
+    },
+    {
+      "held_out_subject": "5",
+      "label": "Biting nails",
+      "precision": 1.0,
+      "recall": 0.3064516129032258,
+      "f1": 0.4691358024691358,
+      "support": 186,
+      "behavior_type": "Unusual"
+    },
+    {
+      "held_out_subject": "5",
+      "label": "Eating snacks",
+      "precision": 0.35944299390774587,
+      "recall": 0.8731501057082452,
+      "f1": 0.5092478421701603,
+      "support": 473,
+      "behavior_type": "Normal"
+    },
+    {
+      "held_out_subject": "5",
+      "label": "Head banging",
+      "precision": 1.0,
+      "recall": 0.9767441860465116,
+      "f1": 0.9882352941176471,
+      "support": 129,
+      "behavior_type": "Unusual"
+    },
+    {
+      "held_out_subject": "5",
+      "label": "Sitting quietly",
+      "precision": 0.5526315789473685,
+      "recall": 0.1696969696969697,
+      "f1": 0.2596599690880989,
+      "support": 495,
+      "behavior_type": "Normal"
+    },
+    {
+      "held_out_subject": "5",
+      "label": "Throwing things",
+      "precision": 0.9632352941176471,
+      "recall": 0.9849624060150376,
+      "f1": 0.9739776951672863,
+      "support": 133,
+      "behavior_type": "Unusual"
+    },
+    {
+      "held_out_subject": "5",
+      "label": "Using phone",
+      "precision": 0.9701492537313433,
+      "recall": 0.38461538461538464,
+      "f1": 0.5508474576271186,
+      "support": 338,
+      "behavior_type": "Normal"
+    },
+    {
+      "held_out_subject": "5",
+      "label": "Walking",
+      "precision": 0.9854469854469855,
+      "recall": 0.9978947368421053,
+      "f1": 0.9916317991631799,
+      "support": 475,
+      "behavior_type": "Normal"
+    }
+  ],
+  "classification_report": {
+    "Attacking": {
+      "precision": 0.826890756302521,
+      "recall": 0.7443267776096822,
+      "f1-score": 0.7834394904458599,
+      "support": 661.0
+    },
+    "Biting nails": {
+      "precision": 0.6955017301038062,
+      "recall": 0.26587301587301587,
+      "f1-score": 0.384688995215311,
+      "support": 756.0
+    },
+    "Eating snacks": {
+      "precision": 0.45753512132822477,
+      "recall": 0.7956690727373681,
+      "f1-score": 0.5809852017028178,
+      "support": 1801.0
+    },
+    "Head banging": {
+      "precision": 0.9717514124293786,
+      "recall": 0.5870307167235495,
+      "f1-score": 0.7319148936170212,
+      "support": 586.0
+    },
+    "Sitting quietly": {
+      "precision": 0.632830626450116,
+      "recall": 0.460337552742616,
+      "f1-score": 0.5329750854909624,
+      "support": 2370.0
+    },
+    "Throwing things": {
+      "precision": 0.6098654708520179,
+      "recall": 0.7640449438202247,
+      "f1-score": 0.6783042394014963,
+      "support": 534.0
+    },
+    "Using phone": {
+      "precision": 0.4506054811982154,
+      "recall": 0.3786823781467595,
+      "f1-score": 0.41152502910360883,
+      "support": 1867.0
+    },
+    "Walking": {
+      "precision": 0.8714893617021277,
+      "recall": 0.9719981015662079,
+      "f1-score": 0.9190038142248149,
+      "support": 2107.0
+    },
+    "accuracy": 0.6294701366785246,
+    "macro avg": {
+      "precision": 0.689558745045801,
+      "recall": 0.6209953199024281,
+      "f1-score": 0.6278545936502365,
+      "support": 10682.0
+    },
+    "weighted avg": {
+      "precision": 0.6523896689473315,
+      "recall": 0.6294701366785246,
+      "f1-score": 0.6191685584961562,
+      "support": 10682.0
+    }
+  },
+  "confusion_matrix_labels": [
+    "Attacking",
+    "Biting nails",
+    "Eating snacks",
+    "Head banging",
+    "Sitting quietly",
+    "Throwing things",
+    "Using phone",
+    "Walking"
+  ],
+  "confusion_matrix": [
+    [
+      492,
+      0,
+      41,
+      3,
+      0,
+      80,
+      0,
+      45
+    ],
+    [
+      0,
+      201,
+      392,
+      0,
+      1,
+      41,
+      110,
+      11
+    ],
+    [
+      14,
+      11,
+      1433,
+      2,
+      248,
+      28,
+      36,
+      29
+    ],
+    [
+      7,
+      0,
+      20,
+      344,
+      1,
+      47,
+      8,
+      159
+    ],
+    [
+      0,
+      3,
+      550,
+      5,
+      1091,
+      8,
+      707,
+      6
+    ],
+    [
+      60,
+      0,
+      26,
+      0,
+      0,
+      408,
+      0,
+      40
+    ],
+    [
+      1,
+      74,
+      667,
+      0,
+      376,
+      30,
+      707,
+      12
+    ],
+    [
+      21,
+      0,
+      3,
+      0,
+      7,
+      27,
+      1,
+      2048
+    ]
+  ]
+}

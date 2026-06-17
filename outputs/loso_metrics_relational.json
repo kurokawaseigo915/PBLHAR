@@ -1,0 +1,256 @@
+{
+  "config": {
+    "window": 60,
+    "stride": 30,
+    "trees": 300,
+    "random_state": 42
+  },
+  "folds": [
+    {
+      "held_out_subject": "1",
+      "windows": 2419,
+      "accuracy": 0.5680033071517155,
+      "macro_f1": 0.48742333391605774,
+      "abnormal": {
+        "precision": 0.973753280839895,
+        "recall": 0.6122112211221122,
+        "f1": 0.75177304964539
+      },
+      "binary_confusion_matrix": [
+        [
+          1803,
+          10
+        ],
+        [
+          235,
+          371
+        ]
+      ]
+    },
+    {
+      "held_out_subject": "2",
+      "windows": 2360,
+      "accuracy": 0.6813559322033899,
+      "macro_f1": 0.5756657171860688,
+      "abnormal": {
+        "precision": 0.8792270531400966,
+        "recall": 0.6728280961182994,
+        "f1": 0.7623036649214661
+      },
+      "binary_confusion_matrix": [
+        [
+          1769,
+          50
+        ],
+        [
+          177,
+          364
+        ]
+      ]
+    },
+    {
+      "held_out_subject": "3",
+      "windows": 3525,
+      "accuracy": 0.43659574468085105,
+      "macro_f1": 0.3734148503256195,
+      "abnormal": {
+        "precision": 0.34385113268608414,
+        "recall": 0.5359394703656999,
+        "f1": 0.4189255791030064
+      },
+      "binary_confusion_matrix": [
+        [
+          1921,
+          811
+        ],
+        [
+          368,
+          425
+        ]
+      ]
+    },
+    {
+      "held_out_subject": "5",
+      "windows": 2378,
+      "accuracy": 0.5693860386879731,
+      "macro_f1": 0.5562353435511989,
+      "abnormal": {
+        "precision": 0.9975062344139651,
+        "recall": 0.6700167504187605,
+        "f1": 0.8016032064128257
+      },
+      "binary_confusion_matrix": [
+        [
+          1780,
+          1
+        ],
+        [
+          197,
+          400
+        ]
+      ]
+    }
+  ],
+  "overall_accuracy": 0.5499906384572177,
+  "overall_macro_f1": 0.5137909065166708,
+  "overall_abnormal": {
+    "precision": 0.6414473684210527,
+    "recall": 0.6148994875837603,
+    "f1": 0.6278929362044677
+  },
+  "classification_report": {
+    "Attacking": {
+      "precision": 0.717741935483871,
+      "recall": 0.5385779122541604,
+      "f1-score": 0.6153846153846154,
+      "support": 661.0
+    },
+    "Biting nails": {
+      "precision": 0.6432748538011696,
+      "recall": 0.1455026455026455,
+      "f1-score": 0.2373247033441208,
+      "support": 756.0
+    },
+    "Eating snacks": {
+      "precision": 0.393315428230379,
+      "recall": 0.7318156579677957,
+      "f1-score": 0.5116459627329193,
+      "support": 1801.0
+    },
+    "Head banging": {
+      "precision": 0.984472049689441,
+      "recall": 0.5409556313993175,
+      "f1-score": 0.698237885462555,
+      "support": 586.0
+    },
+    "Sitting quietly": {
+      "precision": 0.6421319796954315,
+      "recall": 0.4270042194092827,
+      "f1-score": 0.5129244804865687,
+      "support": 2370.0
+    },
+    "Throwing things": {
+      "precision": 0.2758142758142758,
+      "recall": 0.7453183520599251,
+      "f1-score": 0.4026302478502782,
+      "support": 534.0
+    },
+    "Using phone": {
+      "precision": 0.3093980992608237,
+      "recall": 0.1569362613818961,
+      "f1-score": 0.2082444918265814,
+      "support": 1867.0
+    },
+    "Walking": {
+      "precision": 0.8716329966329966,
+      "recall": 0.9829140958709065,
+      "f1-score": 0.9239348650457283,
+      "support": 2107.0
+    },
+    "accuracy": 0.5499906384572177,
+    "macro avg": {
+      "precision": 0.6047227023260486,
+      "recall": 0.5336280969807412,
+      "f1-score": 0.5137909065166708,
+      "support": 10682.0
+    },
+    "weighted avg": {
+      "precision": 0.5925219534336384,
+      "recall": 0.5499906384572177,
+      "f1-score": 0.5320152859255967,
+      "support": 10682.0
+    }
+  },
+  "confusion_matrix_labels": [
+    "Attacking",
+    "Biting nails",
+    "Eating snacks",
+    "Head banging",
+    "Sitting quietly",
+    "Throwing things",
+    "Using phone",
+    "Walking"
+  ],
+  "confusion_matrix": [
+    [
+      356,
+      0,
+      79,
+      1,
+      0,
+      173,
+      0,
+      52
+    ],
+    [
+      2,
+      110,
+      498,
+      0,
+      3,
+      52,
+      83,
+      8
+    ],
+    [
+      19,
+      41,
+      1318,
+      1,
+      154,
+      244,
+      5,
+      19
+    ],
+    [
+      4,
+      0,
+      4,
+      317,
+      1,
+      82,
+      1,
+      177
+    ],
+    [
+      3,
+      5,
+      769,
+      3,
+      1012,
+      10,
+      565,
+      3
+    ],
+    [
+      65,
+      0,
+      35,
+      0,
+      0,
+      398,
+      0,
+      36
+    ],
+    [
+      31,
+      15,
+      647,
+      0,
+      406,
+      465,
+      293,
+      10
+    ],
+    [
+      16,
+      0,
+      1,
+      0,
+      0,
+      19,
+      0,
+      2071
+    ]
+  ]
+}

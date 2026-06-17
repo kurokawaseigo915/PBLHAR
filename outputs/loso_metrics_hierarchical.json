@@ -1,0 +1,256 @@
+{
+  "config": {
+    "window": 60,
+    "stride": 30,
+    "trees": 300,
+    "random_state": 42
+  },
+  "folds": [
+    {
+      "held_out_subject": "1",
+      "windows": 2419,
+      "accuracy": 0.40801984291029353,
+      "macro_f1": 0.32636622822001765,
+      "abnormal": {
+        "precision": 0.9835616438356164,
+        "recall": 0.5924092409240924,
+        "f1": 0.7394438722966014
+      },
+      "binary_confusion_matrix": [
+        [
+          1807,
+          6
+        ],
+        [
+          247,
+          359
+        ]
+      ]
+    },
+    {
+      "held_out_subject": "2",
+      "windows": 2360,
+      "accuracy": 0.5766949152542373,
+      "macro_f1": 0.4534533245893174,
+      "abnormal": {
+        "precision": 0.989010989010989,
+        "recall": 0.49907578558225507,
+        "f1": 0.6633906633906633
+      },
+      "binary_confusion_matrix": [
+        [
+          1816,
+          3
+        ],
+        [
+          271,
+          270
+        ]
+      ]
+    },
+    {
+      "held_out_subject": "3",
+      "windows": 3525,
+      "accuracy": 0.420709219858156,
+      "macro_f1": 0.34129652887835515,
+      "abnormal": {
+        "precision": 0.3705357142857143,
+        "recall": 0.6279949558638083,
+        "f1": 0.46607393542349085
+      },
+      "binary_confusion_matrix": [
+        [
+          1886,
+          846
+        ],
+        [
+          295,
+          498
+        ]
+      ]
+    },
+    {
+      "held_out_subject": "5",
+      "windows": 2378,
+      "accuracy": 0.5651808242220353,
+      "macro_f1": 0.5493506270249511,
+      "abnormal": {
+        "precision": 0.9975429975429976,
+        "recall": 0.6800670016750419,
+        "f1": 0.8087649402390439
+      },
+      "binary_confusion_matrix": [
+        [
+          1780,
+          1
+        ],
+        [
+          191,
+          406
+        ]
+      ]
+    }
+  ],
+  "overall_accuracy": 0.48445983898146416,
+  "overall_macro_f1": 0.4433489251292959,
+  "overall_abnormal": {
+    "precision": 0.6416910841356216,
+    "recall": 0.604256996452503,
+    "f1": 0.6224116930572473
+  },
+  "classification_report": {
+    "Attacking": {
+      "precision": 0.61328125,
+      "recall": 0.4750378214826021,
+      "f1-score": 0.5353793691389599,
+      "support": 661.0
+    },
+    "Biting nails": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 756.0
+    },
+    "Eating snacks": {
+      "precision": 0.3134517766497462,
+      "recall": 0.5485841199333703,
+      "f1-score": 0.3989501312335958,
+      "support": 1801.0
+    },
+    "Head banging": {
+      "precision": 0.8994565217391305,
+      "recall": 0.5648464163822525,
+      "f1-score": 0.6939203354297694,
+      "support": 586.0
+    },
+    "Sitting quietly": {
+      "precision": 0.4239733629300777,
+      "recall": 0.32236286919831225,
+      "f1-score": 0.36625119846596355,
+      "support": 2370.0
+    },
+    "Throwing things": {
+      "precision": 0.27122015915119363,
+      "recall": 0.7659176029962547,
+      "f1-score": 0.4005876591576885,
+      "support": 534.0
+    },
+    "Using phone": {
+      "precision": 0.26320582877959925,
+      "recall": 0.15479378682378148,
+      "f1-score": 0.19494097807757166,
+      "support": 1867.0
+    },
+    "Walking": {
+      "precision": 0.928157072735386,
+      "recall": 0.9871855719031799,
+      "f1-score": 0.9567617295308187,
+      "support": 2107.0
+    },
+    "accuracy": 0.48445983898146416,
+    "macro avg": {
+      "precision": 0.46409324649814165,
+      "recall": 0.4773410235899691,
+      "f1-score": 0.4433489251292959,
+      "support": 10682.0
+    },
+    "weighted avg": {
+      "precision": 0.476845885363351,
+      "recall": 0.48445983898146416,
+      "f1-score": 0.46253634024164053,
+      "support": 10682.0
+    }
+  },
+  "confusion_matrix_labels": [
+    "Attacking",
+    "Biting nails",
+    "Eating snacks",
+    "Head banging",
+    "Sitting quietly",
+    "Throwing things",
+    "Using phone",
+    "Walking"
+  ],
+  "confusion_matrix": [
+    [
+      314,
+      0,
+      141,
+      6,
+      0,
+      161,
+      0,
+      39
+    ],
+    [
+      1,
+      0,
+      422,
+      2,
+      93,
+      75,
+      149,
+      14
+    ],
+    [
+      23,
+      1,
+      988,
+      5,
+      469,
+      285,
+      24,
+      6
+    ],
+    [
+      65,
+      0,
+      5,
+      331,
+      1,
+      111,
+      27,
+      46
+    ],
+    [
+      2,
+      0,
+      986,
+      3,
+      764,
+      5,
+      608,
+      2
+    ],
+    [
+      55,
+      0,
+      23,
+      3,
+      0,
+      409,
+      1,
+      43
+    ],
+    [
+      42,
+      0,
+      583,
+      18,
+      475,
+      449,
+      289,
+      11
+    ],
+    [
+      10,
+      0,
+      4,
+      0,
+      0,
+      13,
+      0,
+      2080
+    ]
+  ]
+}

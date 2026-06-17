@@ -1,0 +1,374 @@
+[
+  {
+    "normalization": "none",
+    "leaf": 1,
+    "max_features": "sqrt",
+    "class_weight": null,
+    "accuracy": 0.5644074143418836,
+    "macro_f1": 0.5330644814590402,
+    "abnormal_f1": 0.6311343523732904,
+    "folds": [
+      {
+        "subject": "1",
+        "accuracy": 0.6134766432410087,
+        "abnormal_f1": 0.7494949494949495
+      },
+      {
+        "subject": "2",
+        "accuracy": 0.6889830508474576,
+        "abnormal_f1": 0.7352625937834941
+      },
+      {
+        "subject": "3",
+        "accuracy": 0.43375886524822693,
+        "abnormal_f1": 0.4166666666666667
+      },
+      {
+        "subject": "5",
+        "accuracy": 0.584524810765349,
+        "abnormal_f1": 0.8422071636011617
+      }
+    ]
+  },
+  {
+    "normalization": "none",
+    "leaf": 1,
+    "max_features": "sqrt",
+    "class_weight": "balanced",
+    "accuracy": 0.535012170005617,
+    "macro_f1": 0.4858778050164326,
+    "abnormal_f1": 0.5780492942911312,
+    "folds": [
+      {
+        "subject": "1",
+        "accuracy": 0.548573790822654,
+        "abnormal_f1": 0.7370600414078675
+      },
+      {
+        "subject": "2",
+        "accuracy": 0.6512711864406779,
+        "abnormal_f1": 0.5630573248407644
+      },
+      {
+        "subject": "3",
+        "accuracy": 0.4306382978723404,
+        "abnormal_f1": 0.39780109945027486
+      },
+      {
+        "subject": "5",
+        "accuracy": 0.5605550883095037,
+        "abnormal_f1": 0.7979899497487437
+      }
+    ]
+  },
+  {
+    "normalization": "none",
+    "leaf": 2,
+    "max_features": "sqrt",
+    "class_weight": "balanced",
+    "accuracy": 0.5514884853023778,
+    "macro_f1": 0.5102816681293008,
+    "abnormal_f1": 0.6239610784512467,
+    "folds": [
+      {
+        "subject": "1",
+        "accuracy": 0.5750310045473336,
+        "abnormal_f1": 0.7565392354124748
+      },
+      {
+        "subject": "2",
+        "accuracy": 0.6766949152542373,
+        "abnormal_f1": 0.7312295973884657
+      },
+      {
+        "subject": "3",
+        "accuracy": 0.43858156028368794,
+        "abnormal_f1": 0.42000990589400694
+      },
+      {
+        "subject": "5",
+        "accuracy": 0.5706476030277544,
+        "abnormal_f1": 0.8051948051948051
+      }
+    ]
+  },
+  {
+    "normalization": "none",
+    "leaf": 4,
+    "max_features": "sqrt",
+    "class_weight": "balanced",
+    "accuracy": 0.5581351806777757,
+    "macro_f1": 0.5284210621865135,
+    "abnormal_f1": 0.6533849129593811,
+    "folds": [
+      {
+        "subject": "1",
+        "accuracy": 0.5886730053741215,
+        "abnormal_f1": 0.7605083088954058
+      },
+      {
+        "subject": "2",
+        "accuracy": 0.690677966101695,
+        "abnormal_f1": 0.8217349857006673
+      },
+      {
+        "subject": "3",
+        "accuracy": 0.44056737588652484,
+        "abnormal_f1": 0.43398943831012965
+      },
+      {
+        "subject": "5",
+        "accuracy": 0.5698065601345669,
+        "abnormal_f1": 0.8216748768472907
+      }
+    ]
+  },
+  {
+    "normalization": "none",
+    "leaf": 2,
+    "max_features": 0.2,
+    "class_weight": "balanced",
+    "accuracy": 0.5474630219060101,
+    "macro_f1": 0.5092653544607142,
+    "abnormal_f1": 0.6184578505793049,
+    "folds": [
+      {
+        "subject": "1",
+        "accuracy": 0.5601488218272013,
+        "abnormal_f1": 0.7461773700305809
+      },
+      {
+        "subject": "2",
+        "accuracy": 0.7008474576271186,
+        "abnormal_f1": 0.7870837537840565
+      },
+      {
+        "subject": "3",
+        "accuracy": 0.42326241134751774,
+        "abnormal_f1": 0.3850687622789784
+      },
+      {
+        "subject": "5",
+        "accuracy": 0.5664423885618166,
+        "abnormal_f1": 0.8016032064128257
+      }
+    ]
+  },
+  {
+    "normalization": "none",
+    "leaf": 2,
+    "max_features": 0.4,
+    "class_weight": "balanced",
+    "accuracy": 0.5143231604568433,
+    "macro_f1": 0.47717003474317105,
+    "abnormal_f1": 0.6111000596777402,
+    "folds": [
+      {
+        "subject": "1",
+        "accuracy": 0.4663083918974783,
+        "abnormal_f1": 0.7459016393442623
+      },
+      {
+        "subject": "2",
+        "accuracy": 0.6711864406779661,
+        "abnormal_f1": 0.739829706717124
+      },
+      {
+        "subject": "3",
+        "accuracy": 0.4175886524822695,
+        "abnormal_f1": 0.38257386079118677
+      },
+      {
+        "subject": "5",
+        "accuracy": 0.5508830950378469,
+        "abnormal_f1": 0.8004012036108326
+      }
+    ]
+  },
+  {
+    "normalization": "zscore",
+    "leaf": 1,
+    "max_features": "sqrt",
+    "class_weight": null,
+    "accuracy": 0.6227298258753042,
+    "macro_f1": 0.618954247888073,
+    "abnormal_f1": 0.7539594021860361,
+    "folds": [
+      {
+        "subject": "1",
+        "accuracy": 0.6750723439437785,
+        "abnormal_f1": 0.8410159924741298
+      },
+      {
+        "subject": "2",
+        "accuracy": 0.7228813559322034,
+        "abnormal_f1": 0.8422110552763818
+      },
+      {
+        "subject": "3",
+        "accuracy": 0.5208510638297872,
+        "abnormal_f1": 0.5599425699928213
+      },
+      {
+        "subject": "5",
+        "accuracy": 0.6211101766190076,
+        "abnormal_f1": 0.8410852713178294
+      }
+    ]
+  },
+  {
+    "normalization": "zscore",
+    "leaf": 1,
+    "max_features": "sqrt",
+    "class_weight": "balanced",
+    "accuracy": 0.5903388878487175,
+    "macro_f1": 0.5643003749243825,
+    "abnormal_f1": 0.6748318924111432,
+    "folds": [
+      {
+        "subject": "1",
+        "accuracy": 0.6271186440677966,
+        "abnormal_f1": 0.7571428571428571
+      },
+      {
+        "subject": "2",
+        "accuracy": 0.6830508474576271,
+        "abnormal_f1": 0.6861143523920653
+      },
+      {
+        "subject": "3",
+        "accuracy": 0.4939007092198582,
+        "abnormal_f1": 0.5037821482602117
+      },
+      {
+        "subject": "5",
+        "accuracy": 0.6038687973086627,
+        "abnormal_f1": 0.8099502487562189
+      }
+    ]
+  },
+  {
+    "normalization": "zscore",
+    "leaf": 2,
+    "max_features": "sqrt",
+    "class_weight": "balanced",
+    "accuracy": 0.5801348062160644,
+    "macro_f1": 0.556386727469323,
+    "abnormal_f1": 0.6926426770570708,
+    "folds": [
+      {
+        "subject": "1",
+        "accuracy": 0.5919801570897065,
+        "abnormal_f1": 0.7545638945233266
+      },
+      {
+        "subject": "2",
+        "accuracy": 0.7021186440677966,
+        "abnormal_f1": 0.782791185729276
+      },
+      {
+        "subject": "3",
+        "accuracy": 0.49333333333333335,
+        "abnormal_f1": 0.5091420534458508
+      },
+      {
+        "subject": "5",
+        "accuracy": 0.5756938603868798,
+        "abnormal_f1": 0.8063872255489023
+      }
+    ]
+  },
+  {
+    "normalization": "zscore",
+    "leaf": 2,
+    "max_features": 0.2,
+    "class_weight": "balanced",
+    "accuracy": 0.5810709604942894,
+    "macro_f1": 0.5727749572761965,
+    "abnormal_f1": 0.683698296836983,
+    "folds": [
+      {
+        "subject": "1",
+        "accuracy": 0.6291856138900372,
+        "abnormal_f1": 0.8486536675951718
+      },
+      {
+        "subject": "2",
+        "accuracy": 0.7360169491525423,
+        "abnormal_f1": 0.9044465468306527
+      },
+      {
+        "subject": "3",
+        "accuracy": 0.44879432624113474,
+        "abnormal_f1": 0.37737961926091823
+      },
+      {
+        "subject": "5",
+        "accuracy": 0.5744322960470984,
+        "abnormal_f1": 0.8181818181818182
+      }
+    ]
+  },
+  {
+    "normalization": "robust",
+    "leaf": 1,
+    "max_features": "sqrt",
+    "class_weight": "balanced",
+    "accuracy": 0.5829432690507396,
+    "macro_f1": 0.5651532162696342,
+    "abnormal_f1": 0.6760280842527582,
+    "folds": [
+      {
+        "subject": "1",
+        "accuracy": 0.6064489458453907,
+        "abnormal_f1": 0.7213459516298633
+      },
+      {
+        "subject": "2",
+        "accuracy": 0.6415254237288136,
+        "abnormal_f1": 0.6341463414634146
+      },
+      {
+        "subject": "3",
+        "accuracy": 0.4873758865248227,
+        "abnormal_f1": 0.5335570469798657
+      },
+      {
+        "subject": "5",
+        "accuracy": 0.6425567703952901,
+        "abnormal_f1": 0.833170731707317
+      }
+    ]
+  },
+  {
+    "normalization": "robust",
+    "leaf": 2,
+    "max_features": "sqrt",
+    "class_weight": "balanced",
+    "accuracy": 0.5850964238906572,
+    "macro_f1": 0.5834692230940078,
+    "abnormal_f1": 0.7344418052256533,
+    "folds": [
+      {
+        "subject": "1",
+        "accuracy": 0.6606035551880942,
+        "abnormal_f1": 0.8311195445920303
+      },
+      {
+        "subject": "2",
+        "accuracy": 0.6457627118644068,
+        "abnormal_f1": 0.7682263329706202
+      },
+      {
+        "subject": "3",
+        "accuracy": 0.489645390070922,
+        "abnormal_f1": 0.5531914893617021
+      },
+      {
+        "subject": "5",
+        "accuracy": 0.5895710681244744,
+        "abnormal_f1": 0.8216748768472907
+      }
+    ]
+  }
+]

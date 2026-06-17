@@ -1,0 +1,211 @@
+{
+  "config": {
+    "window": 90,
+    "stride": 30,
+    "trees": 200,
+    "random_state": 42
+  },
+  "folds": [
+    {
+      "held_out_subject": "1",
+      "windows": 2403,
+      "accuracy": 0.4327923429047025,
+      "abnormal": {
+        "precision": 0.9915254237288136,
+        "recall": 0.5869565217391305,
+        "f1": 0.7373949579831934
+      }
+    },
+    {
+      "held_out_subject": "2",
+      "windows": 2345,
+      "accuracy": 0.6464818763326226,
+      "abnormal": {
+        "precision": 0.9819819819819819,
+        "recall": 0.40823970037453183,
+        "f1": 0.5767195767195766
+      }
+    },
+    {
+      "held_out_subject": "3",
+      "windows": 3501,
+      "accuracy": 0.4213081976578121,
+      "abnormal": {
+        "precision": 0.37720588235294117,
+        "recall": 0.6576923076923077,
+        "f1": 0.4794392523364486
+      }
+    },
+    {
+      "held_out_subject": "5",
+      "windows": 2362,
+      "accuracy": 0.5677392040643523,
+      "abnormal": {
+        "precision": 0.9975247524752475,
+        "recall": 0.6842105263157895,
+        "f1": 0.8116817724068479
+      }
+    }
+  ],
+  "overall_accuracy": 0.5062670813306945,
+  "overall_abnormal": {
+    "precision": 0.6346153846153846,
+    "recall": 0.5937624950019992,
+    "f1": 0.6135096054534186
+  },
+  "classification_report": {
+    "Attacking": {
+      "precision": 0.5231259968102073,
+      "recall": 0.5030674846625767,
+      "f1-score": 0.5129007036747459,
+      "support": 652.0
+    },
+    "Biting nails": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 748.0
+    },
+    "Eating snacks": {
+      "precision": 0.3494655581947744,
+      "recall": 0.656441717791411,
+      "f1-score": 0.4561131563650455,
+      "support": 1793.0
+    },
+    "Head banging": {
+      "precision": 0.9512820512820512,
+      "recall": 0.6440972222222222,
+      "f1-score": 0.7681159420289855,
+      "support": 576.0
+    },
+    "Sitting quietly": {
+      "precision": 0.4770295783511643,
+      "recall": 0.3210504023718763,
+      "f1-score": 0.3837974683544304,
+      "support": 2361.0
+    },
+    "Throwing things": {
+      "precision": 0.2853898561695685,
+      "recall": 0.7180952380952381,
+      "f1-score": 0.4084507042253521,
+      "support": 525.0
+    },
+    "Using phone": {
+      "precision": 0.2594594594594595,
+      "recall": 0.155005382131324,
+      "f1-score": 0.1940700808625337,
+      "support": 1858.0
+    },
+    "Walking": {
+      "precision": 0.940562613430127,
+      "recall": 0.9880838894184938,
+      "f1-score": 0.9637377963737797,
+      "support": 2098.0
+    },
+    "accuracy": 0.5062670813306945,
+    "macro avg": {
+      "precision": 0.473289389212169,
+      "recall": 0.4982301670866428,
+      "f1-score": 0.4608982314856091,
+      "support": 10611.0
+    },
+    "weighted avg": {
+      "precision": 0.4944944778937095,
+      "recall": 0.5062670813306945,
+      "f1-score": 0.48042064652766514,
+      "support": 10611.0
+    }
+  },
+  "confusion_matrix_labels": [
+    "Attacking",
+    "Biting nails",
+    "Eating snacks",
+    "Head banging",
+    "Sitting quietly",
+    "Throwing things",
+    "Using phone",
+    "Walking"
+  ],
+  "confusion_matrix": [
+    [
+      328,
+      0,
+      168,
+      12,
+      0,
+      110,
+      0,
+      34
+    ],
+    [
+      9,
+      0,
+      417,
+      0,
+      97,
+      69,
+      142,
+      14
+    ],
+    [
+      57,
+      2,
+      1177,
+      2,
+      244,
+      255,
+      51,
+      5
+    ],
+    [
+      90,
+      0,
+      5,
+      371,
+      0,
+      55,
+      33,
+      22
+    ],
+    [
+      4,
+      0,
+      991,
+      3,
+      758,
+      4,
+      596,
+      5
+    ],
+    [
+      63,
+      0,
+      47,
+      1,
+      0,
+      377,
+      0,
+      37
+    ],
+    [
+      64,
+      0,
+      560,
+      1,
+      490,
+      441,
+      288,
+      14
+    ],
+    [
+      12,
+      0,
+      3,
+      0,
+      0,
+      10,
+      0,
+      2073
+    ]
+  ]
+}

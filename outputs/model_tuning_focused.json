@@ -1,0 +1,188 @@
+[
+  {
+    "normalization": "zscore",
+    "leaf": 1,
+    "max_features": "sqrt",
+    "class_weight": null,
+    "accuracy": 0.618985208762404,
+    "macro_f1": 0.6131013703704242,
+    "abnormal_f1": 0.7416535962357158,
+    "folds": [
+      {
+        "subject": "1",
+        "accuracy": 0.6651508887970236,
+        "abnormal_f1": 0.8237547892720307
+      },
+      {
+        "subject": "2",
+        "accuracy": 0.7347457627118644,
+        "abnormal_f1": 0.852589641434263
+      },
+      {
+        "subject": "3",
+        "accuracy": 0.5114893617021277,
+        "abnormal_f1": 0.547008547008547
+      },
+      {
+        "subject": "5",
+        "accuracy": 0.616484440706476,
+        "abnormal_f1": 0.8170128585558852
+      }
+    ]
+  },
+  {
+    "normalization": "zscore",
+    "leaf": 2,
+    "max_features": "sqrt",
+    "class_weight": null,
+    "accuracy": 0.6107470511140236,
+    "macro_f1": 0.6089227463959664,
+    "abnormal_f1": 0.7574257425742575,
+    "folds": [
+      {
+        "subject": "1",
+        "accuracy": 0.6643241008681273,
+        "abnormal_f1": 0.8428974600188146
+      },
+      {
+        "subject": "2",
+        "accuracy": 0.7088983050847457,
+        "abnormal_f1": 0.801670146137787
+      },
+      {
+        "subject": "3",
+        "accuracy": 0.4981560283687943,
+        "abnormal_f1": 0.5718475073313783
+      },
+      {
+        "subject": "5",
+        "accuracy": 0.6257359125315392,
+        "abnormal_f1": 0.8706326723323891
+      }
+    ]
+  },
+  {
+    "normalization": "zscore",
+    "leaf": 4,
+    "max_features": "sqrt",
+    "class_weight": null,
+    "accuracy": 0.6253510578543344,
+    "macro_f1": 0.6194101856306834,
+    "abnormal_f1": 0.7353526420517356,
+    "folds": [
+      {
+        "subject": "1",
+        "accuracy": 0.6630839189747829,
+        "abnormal_f1": 0.8314393939393939
+      },
+      {
+        "subject": "2",
+        "accuracy": 0.7076271186440678,
+        "abnormal_f1": 0.7698833510074231
+      },
+      {
+        "subject": "3",
+        "accuracy": 0.5219858156028369,
+        "abnormal_f1": 0.5380919698009609
+      },
+      {
+        "subject": "5",
+        "accuracy": 0.6585365853658537,
+        "abnormal_f1": 0.8791002811621369
+      }
+    ]
+  },
+  {
+    "normalization": "zscore",
+    "leaf": 1,
+    "max_features": "log2",
+    "class_weight": null,
+    "accuracy": 0.6101853585470886,
+    "macro_f1": 0.5929043482685323,
+    "abnormal_f1": 0.7198489497285816,
+    "folds": [
+      {
+        "subject": "1",
+        "accuracy": 0.6535758577924762,
+        "abnormal_f1": 0.8135265700483092
+      },
+      {
+        "subject": "2",
+        "accuracy": 0.6800847457627118,
+        "abnormal_f1": 0.7337016574585634
+      },
+      {
+        "subject": "3",
+        "accuracy": 0.510354609929078,
+        "abnormal_f1": 0.5650154798761611
+      },
+      {
+        "subject": "5",
+        "accuracy": 0.6446593776282591,
+        "abnormal_f1": 0.8099502487562189
+      }
+    ]
+  },
+  {
+    "normalization": "zscore",
+    "leaf": 1,
+    "max_features": 0.05,
+    "class_weight": null,
+    "accuracy": 0.610278973974911,
+    "macro_f1": 0.608927392724126,
+    "abnormal_f1": 0.7374706760503306,
+    "folds": [
+      {
+        "subject": "1",
+        "accuracy": 0.670111616370401,
+        "abnormal_f1": 0.8426966292134831
+      },
+      {
+        "subject": "2",
+        "accuracy": 0.7177966101694915,
+        "abnormal_f1": 0.8489065606361829
+      },
+      {
+        "subject": "3",
+        "accuracy": 0.4919148936170213,
+        "abnormal_f1": 0.5006435006435006
+      },
+      {
+        "subject": "5",
+        "accuracy": 0.6181665264928511,
+        "abnormal_f1": 0.8727615457115929
+      }
+    ]
+  },
+  {
+    "normalization": "zscore",
+    "leaf": 1,
+    "max_features": 0.1,
+    "class_weight": null,
+    "accuracy": 0.6177682082007114,
+    "macro_f1": 0.6189802054237616,
+    "abnormal_f1": 0.734793187347932,
+    "folds": [
+      {
+        "subject": "1",
+        "accuracy": 0.6713517982637454,
+        "abnormal_f1": 0.8491620111731845
+      },
+      {
+        "subject": "2",
+        "accuracy": 0.7466101694915255,
+        "abnormal_f1": 0.9116809116809116
+      },
+      {
+        "subject": "3",
+        "accuracy": 0.47432624113475175,
+        "abnormal_f1": 0.4514252472367655
+      },
+      {
+        "subject": "5",
+        "accuracy": 0.6480235492010092,
+        "abnormal_f1": 0.8987108655616943
+      }
+    ]
+  }
+]
